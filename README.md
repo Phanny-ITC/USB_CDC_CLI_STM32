@@ -1,6 +1,6 @@
 # USB_CDC_CLI_STM32
 this project is support command line interface(cli) with usb device protocol
-to receive data we need to modify some code in "usbd_cdc_if.h"
+to receive data we need to modify some code in "usbd_cdc_if.c"
 ```
 #include "stdio.h"
 #include "string.h"
